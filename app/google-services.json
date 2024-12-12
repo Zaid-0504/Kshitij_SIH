@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560448579215",
+    "project_id": "kshitij-6cdb4",
+    "storage_bucket": "kshitij-6cdb4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560448579215:android:5b90a66191bfd0e9d232fa",
+        "android_client_info": {
+          "package_name": "com.example.kshitijsih"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFOeILf3kWquRnd6aZc4jEWFFMb42Xi30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
