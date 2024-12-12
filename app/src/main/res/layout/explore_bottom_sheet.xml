@@ -7,7 +7,7 @@
     app:cardCornerRadius="50dp"
     app:layout_behavior="@string/bottom_sheet_behavior"
     app:behavior_hideable="true"
-    app:behavior_peekHeight="116dp"
+    app:behavior_peekHeight="186dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.constraintlayout.widget.ConstraintLayout

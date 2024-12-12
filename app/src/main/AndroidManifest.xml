@@ -20,6 +20,12 @@
         android:theme="@style/Theme.KshitijSIH"
         tools:targetApi="31">
         <activity
+            android:name=".ChatBotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommunityActivity"
+            android:exported="false" />
+        <activity
             android:name=".AlertActivity"
             android:exported="false" />
         <activity

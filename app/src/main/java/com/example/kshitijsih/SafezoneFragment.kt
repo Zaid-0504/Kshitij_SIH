@@ -16,6 +16,7 @@ import com.google.android.gms.maps.model.CircleOptions
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.PolygonOptions
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -112,6 +113,17 @@ class SafezoneFragment : Fragment(),OnMapReadyCallback,OnMarkerClickListener {
                 .radius(500.0)
                 .fillColor(0x22FF0000)
                 .strokeWidth(1.0F)
+        )
+
+
+
+        googleMap.addPolygon(
+            PolygonOptions()
+                .add(LatLng( 15.496777,  73.823097))
+                .add(LatLng(  15.498777,   73.825097))
+                .add(LatLng( 15.498789,  73.832012))
+                .add(LatLng(  15.492723,  73.828101))
+                .fillColor(R.color.grey_background)
         )
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(goa))
         googleMap.moveCamera(CameraUpdateFactory.zoomTo(15f))

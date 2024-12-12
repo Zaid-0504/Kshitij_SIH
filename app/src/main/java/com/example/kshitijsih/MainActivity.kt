@@ -42,6 +42,15 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent(this,Emergency::class.java))
                     false
                 }
+                R.id.alerts ->{
+                    startActivity(Intent(this,AlertActivity::class.java))
+                    false
+                }
+
+                R.id.community->{
+                    startActivity(Intent(this,CommunityActivity::class.java))
+                    false
+                }
 
                 else -> {
                     false
