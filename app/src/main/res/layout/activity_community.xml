@@ -13,7 +13,7 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black">
+        android:background="@color/white">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -81,6 +81,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/white"
                     android:padding="16dp">
 
                     <EditText
@@ -88,7 +89,8 @@
                         android:layout_width="0dp"
                         android:layout_height="50dp"
                         android:layout_marginEnd="8dp"
-                        android:hint="Search beaches"
+                        android:text="Search beaches"
+                        android:textColor="@color/black"
                         app:layout_constraintEnd_toStartOf="@+id/searchIcon"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -120,7 +122,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="309dp"
+                    android:layout_height="304dp"
+                    android:background="@color/white"
                     android:padding="16dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
@@ -169,11 +172,10 @@
                         android:id="@+id/postImage"
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
-                        android:scaleType="fitXY"
                         android:layout_marginTop="8dp"
+                        android:scaleType="fitXY"
                         android:src="@drawable/image1"
-                        app:layout_constraintTop_toBottomOf="@+id/postDescription"
-                        />
+                        app:layout_constraintTop_toBottomOf="@+id/postDescription" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -192,6 +194,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="309dp"
+                    android:background="@color/white"
                     android:padding="16dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
